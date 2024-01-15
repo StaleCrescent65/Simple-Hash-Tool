@@ -1,3 +1,5 @@
+# Version 1.0.0 Hashing tool to hash text, 16/01/2024
+
 import hashlib
 import os
 import time
