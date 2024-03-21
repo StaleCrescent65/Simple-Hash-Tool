@@ -48,7 +48,7 @@ def menu():
     os.system('cls')
     menu_of_items = input('''                    
                                                    
-    |   ## [HASH TOOL] ## - StaleCrescent65      
+    |   ## [HASH TOOL] ## - coolpancakes      
     |                                            
     |                                                   
     |   1) SHA256   
