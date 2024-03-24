@@ -29,7 +29,7 @@ def encryption_types(menu_of_items):
 
     def sha512_encryption():
         os.system('cls')
-        SHA512 = hashlib.sha512(input('MD5> ').encode(), usedforsecurity=True).hexdigest()
+        SHA512 = hashlib.sha512(input('SHA512> ').encode(), usedforsecurity=True).hexdigest()
         print('Your SHA512 hash is:', SHA512)
         time.sleep(5)
         return menu()
