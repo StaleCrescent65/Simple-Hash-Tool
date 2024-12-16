@@ -45,8 +45,9 @@ def encryption_types(menu_of_items):
 
 
 def menu():
-    os.system('cls')
-    menu_of_items = input('''                    
+    try:
+        os.system('cls')
+        menu_of_items = input('''                    
                                                    
     |   ## [HASH TOOL] ## - coolpancakes      
     |                                            
@@ -59,7 +60,10 @@ def menu():
     |                                            
          /> ''')
 
-    encryption_types(menu_of_items)
+        encryption_types(menu_of_items)
+    except KeyboardInterrupt:
+        print("\n\nExiting...")
+    
 
 
 menu()
